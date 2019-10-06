@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NestedWeights"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52pt"
+        android:background="#BC000000"
+        android:maxLines="1"
+        android:textSize="48sp"
+        android:id="@+id/inputBox"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/BtnGrid"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/BtnGrid"
+                android:orientation="horizontal">
+                <Button
+                    android:text="7"
+                    android:id="@+id/nbtn7"
+                    style="@style/button" />
+                <Button
+                    android:text="8"
+                    android:id="@+id/nbtn8"
+                    style="@style/button" />
+                <Button
+                    android:text="9"
+                    android:id="@+id/nbtn9"
+                    style="@style/button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/BtnGrid"
+                android:orientation="horizontal">
+                <Button
+                    android:text="4"
+                    android:id="@+id/nbtn4"
+                    style="@style/button" />
+                <Button
+                    android:text="5"
+                    android:id="@+id/nbtn5"
+                    style="@style/button" />
+                <Button
+                    android:text="6"
+                    android:id="@+id/nbtn6"
+                    style="@style/button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/BtnGrid"
+                android:orientation="horizontal">
+                <Button
+                    android:text="1"
+                    android:id="@+id/nbtn1"
+                    style="@style/button" />
+                <Button
+                    style="@style/button"
+                    android:text="2"
+                    android:id="@+id/nbtn2" />
+                <Button
+                    android:text="3"
+                    android:id="@+id/nbtn3"
+                    style="@style/button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/BtnGrid"
+                android:orientation="horizontal">
+                <Button
+                    android:text="."
+                    android:id="@+id/nbtnDot"
+                    style="@style/button"/>
+                <Button
+                    android:text="0"
+                    android:id="@+id/nbtn0"
+                    style="@style/button"/>
+                <Button
+                    android:text="删除"
+                    android:textSize="@dimen/delTextSize"
+                    android:id="@+id/nbtnDel"
+                    style="@style/button" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:text="÷"
+                android:id="@+id/nbtnDiv"
+                style="@style/sideBtn"/>
+            <Button
+                android:text="×"
+                android:id="@+id/nbtnMul"
+                style="@style/sideBtn"/>
+            <Button
+                android:text="-"
+                android:id="@+id/nbtnSub"
+                style="@style/sideBtn" />
+            <Button
+                android:text="+"
+                android:id="@+id/nbtnAdd"
+                style="@style/sideBtn"/>
+            <Button
+                android:text="="
+                android:id="@+id/nbtnEq"
+                android:background="#E13B3B"
+                style="@style/sideBtn"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

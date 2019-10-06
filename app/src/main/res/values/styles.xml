@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BtnGrid">
+<!--        <item name="android:layout_centerHorizontal">true</item>-->
+<!--        <item name="android:layout_marginTop">5pt</item>-->
+<!--        <item name="android:layout_marginLeft">5pt</item>-->
+<!--        <item name="android:layout_marginRight">5pt</item>-->
+<!--        <item name="android:textSize">88sp</item>-->
+<!--        <item name="android:background">@color/colorAccent</item>-->
+    </style>
+
+    <style name="button" parent="@style/btnColor">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/btnTextSize</item>
+    </style>
+
+    <style name="sideBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:textSize">@dimen/sideBtnTextSize</item>
+        <item name="android:background">@color/opBtnBackgroud</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="btnColor">
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:background">@color/buttonBackgroud</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <dimen name="btnTextSize">66sp</dimen>
+    <dimen name="sideBtnTextSize">80sp</dimen>
+    <dimen name="delTextSize">33sp</dimen>
+</resources>
